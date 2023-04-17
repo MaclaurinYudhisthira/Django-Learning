@@ -49,3 +49,8 @@ App folder has following files:
 ### After creating App
 * Add the app config to INSTALLED_APPS in settings.py of project
 * Add the url pattern of app to urlpatterns in urls.py of project
+
+### Using templates
+* Add template folder path to the TEMPLATES.DIRS in settings.py of project
+* Templates stored in templated dir can be renderd in view definition
+* Django uses Jinja for templating

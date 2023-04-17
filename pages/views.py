@@ -2,5 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse('<h1>Home page defined in view of pages app<h1/>')
+    return render(request,'pages/index.html')
+
+def about(request):
+    return render(request,'pages/about.html')
 
