@@ -54,3 +54,7 @@ App folder has following files:
 * Add template folder path to the TEMPLATES.DIRS in settings.py of project
 * Templates stored in templated dir can be renderd in view definition
 * Django uses Jinja for templating
+* For static files add STATIC_ROOT and STATICFILES_DIRS to settings.py of project
+
+### Collect static
+> python manage.py collectstatic
