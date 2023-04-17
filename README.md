@@ -45,3 +45,7 @@ App folder has following files:
 * urls.py : For registering url patterns of views
 * viwes.py : For defining views
 * tests.py : For writing any tests
+
+### After creating App
+* Add the app config to INSTALLED_APPS in settings.py of project
+* Add the url pattern of app to urlpatterns in urls.py of project
