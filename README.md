@@ -1,6 +1,5 @@
 # Django-Learning
 
-
 ### Check version
 > python --version
 
