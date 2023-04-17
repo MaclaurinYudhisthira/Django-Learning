@@ -21,6 +21,12 @@
 ### Start project
 > django-admin startproject btre .
 
+### Folder structure of Project
+Project folder has following files:
+* \_\_init\_\_.py" : For app to be used as module
+* settings.py : For storing the configs of project
+* urls.py : For registering url patterns of views of all the apps
+
 ### Manage.py help
 > python manage.py help
 
@@ -29,12 +35,6 @@
 
 ### Start app
 > python manage.py pages
-
-### Folder structure of Project
-Project folder has following files:
-* \_\_init\_\_.py" : For app to be used as module
-* settings.py : For storing the configs of project
-* urls.py : For registering url patterns of views of all the apps
 
 ### Folder structure of App
 App folder has following files:
