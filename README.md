@@ -18,5 +18,14 @@
 ### Django cli
 > django-admin help
 
+### Start Project
+> django-admin startproject btre .
+
 ### Manage.py help
 > python manage.py help
+
+### Run server
+> python manage.py runserver
+
+### Start App
+> python manage.py startapp pages
